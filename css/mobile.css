@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+#navebar{
+    height: 150px;
+}
+#navbar-contender{
+    flex-direction: column;
+    
+}
+#navbar-contender ul{
+    flex-direction: column;
+}
+#showcase-contender p{
+    width: 100px;
+    font-size:small;
+    text-align: center;
+}
+#arquivos-contender li a{
+    font-size: small;
+}
+.rodape-contender p{
+    margin: 5px;
+}
+.rodape-contender{
+    width: 300px;
+    font-size: small;
+}
+#rodape{
+    height: 150px;
+}
+#sobre{
+    background-image: url('../img/fundo.png');
+    display: flex;
+    height: 50vh;
+    align-items:center ;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-size: cover;
+}
