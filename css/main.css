@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+body{
+    font-family: 'Rampart One',Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#navebar{
+    width: 100%;
+    background-color: green;
+}
+#navbar-contender{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar-contender ul li a{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+}
+#navbar-contender h1{
+    color: white;
+    font-size: 2.3em;
+}
+#showcase{
+    background-image: url('../img/fundo.png');
+    display: flex;
+    height: 50vh;
+    align-items:center ;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#showcase p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+#arquivos-contender{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#arquivos-contender li{  
+    margin: 15px;
+    list-style-type: none;
+    
+}
+
+#rodape{
+    height: 60px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items:center ;
+    justify-content: center;
+}
+.rodape-contender{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#arquivos-contender li a{
+    font-size: 40px;
+    color: black;
+    background-color: #FFC90E;
+    margin: 15px;
+    border: 2px solid red;
+    padding: 10px;
+}
+#sobre{
+    background-image: url('../img/fundo.png');
+    display: flex;
+    height: 50vh;
+    align-items:center ;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#sobre-contender{
+    width: 700px;
+}
+#sobre-contender p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contato{
+    background-image: url('../img/fundo.png');
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#contato-contender{
+    width: 700px;
+}
+#contato-contender p{
+    padding-left: 10px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#arquivos{
+    background-color: #333;
+}
